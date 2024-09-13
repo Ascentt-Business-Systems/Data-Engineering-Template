@@ -84,3 +84,27 @@ The `de/` subfolder contains the main data engineering code, structured into the
 ---
 
 This structure supports a clean, maintainable approach to data engineering and development by clearly separating different layers of code and data. Each folder has a distinct purpose, contributing to the overall modularity and scalability of the project.
+
+
+---
+---
+
+# Setting Up a Project with Cookiecutter
+
+This guide walks you through installing Cookiecutter, navigating to the desired directory, and running Cookiecutter using a GitHub repository link.
+
+## Prerequisites
+
+- **Python** installed on your system.
+- **pip** installed to manage Python packages.
+
+## Install Cookiecutter
+
+To install Cookiecutter using `pip`, open your terminal and run the following command:
+
+```bash
+pip install cookiecutter
+
+cd /path/to/your/project/directory
+
+cookiecutter https://github.com/Ascentt-Business-Systems/Data-Engineering-Template.git
